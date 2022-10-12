@@ -1,0 +1,14 @@
+@import './transitions';
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: rgba(#000, 0.1);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:vertical {
+  height: 10px;
+  background-color: #666;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+}
